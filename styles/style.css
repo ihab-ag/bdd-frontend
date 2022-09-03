@@ -204,3 +204,60 @@ text-align: center;
     width:600px;
     margin:auto;
 }
+/*Join BDD*/
+.join-bdd{
+    padding:30px 0 60px 0;
+    min-height: 100vh;
+}
+.join-bdd-container{
+    display:flex;
+    flex-direction: row;
+}
+.join-bdd-img{
+    height:25vw;
+}
+.join-bdd-cards{
+    display:flex;
+    flex-direction: row;
+    width:auto;
+    justify-content: space-around;
+}
+.join-bdd-card{
+    background: url('../content/bg-icon.png');
+    width:24%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:20px 30px;
+}
+.join-bdd-card > .btn{
+    width: 225px;
+    font-weight: normal;
+}
+.join-bdd-list > li{
+    list-style-image: url('../content/li-style-img.png');
+    padding:15px 0;
+    font-size: 24px;
+}
+.join-bdd-app-stores{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding:30px;
+}
+.join-bdd-download-app{
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 10px 30px;
+    color:#646464;
+}
+.join-bdd-app-store-imgs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app-store-img{
+    margin:30px;
+    height:6vh;
+}

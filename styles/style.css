@@ -91,6 +91,7 @@ img{
     text-transform: capitalize;
 }
 .hero-bg-index{
+    width:30vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -124,14 +125,15 @@ img{
 }
 /*Foundations Section*/
 .foundations{
-    height:100vh;
+    min-height:100vh;
     background-color: #f5f5f5;
+    padding:60px 0;
 }
 .foundations-header{
     text-align: center;
     font-size: 45px;
     font-weight: 1000;
-    padding:60px 0;
+    padding-bottom:60px
 }
 .foundations-cards{
     display:flex;
@@ -174,4 +176,28 @@ img{
 }
 .foundations-card:hover:last-child{
     background-color: #df61ebc5;
+}
+/*Explore Section*/
+.explore{
+    background:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../content/explore-bg.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height:80vh;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+}
+.explore-header{
+    color:white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000;
+    padding:60px 0;
+}
+.explore-video{
+    height:50%;
+    width:40%;
+    margin:auto;
 }

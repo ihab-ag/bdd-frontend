@@ -5,9 +5,6 @@
     font-family: system-ui;
     
 }
-body{
-    overflow-x: hidden;
-}
 img{
     height:100%;
 }
@@ -64,7 +61,8 @@ img{
     margin-right:0px;
 }
 .nav-links > li:not(:last-child):hover{
-    background-color: rgba(173, 168, 168, 0.247);
+    background-color: rgba(27, 27, 27, 0.5);
+
 }
 /*Hero Section*/
 .hero{
@@ -73,14 +71,24 @@ img{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    width:100vw;
     
 }
 .hero-container{
-    margin-top:35vh;
+    margin-top:15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    height:60vh;
+}
+.hero-header{
+    color:white;
+    font-size:70px;
+    font-weight: 1000;
+    text-align: center;
+    margin-bottom: 5vh;
+    text-transform: capitalize;
 }
 .hero-bg-index{
     display: flex;
@@ -89,17 +97,28 @@ img{
 }
 .hero-bg-index > li{
     list-style: none; 
-    margin:10px;
-    padding:10px;
+    margin:8px;
+    padding:8px;
     border-radius: 50px;
+    cursor:pointer;
 }
 .hero-bg-index > li > div{
-    height:810x;
-    width:10px;
-    background-color: rgba(184, 17, 17, 0.863);
+    height: 8px;
+    width: 8px;
+    background-color: rgba(27, 27, 27, 0.5);
     border-radius: 50px;
 }
-.hero-bg-index:nth-child(6) > li > div{
+.hero-bg-index > li:nth-child(6),.hero-bg-index > li:hover{
+    background-color: rgba(27, 27, 27, 0.5);
+}
+.hero-bg-index > li:nth-child(6) > div, .hero-bg-index > li > div:hover{
     background-color: #0078BE;
 }
-
+.navigator{
+    border: solid white;
+    border-left: 0;
+    border-top: 0;
+    padding: 15px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}

@@ -9,52 +9,53 @@ img{
     height:100%;
     width:100%;
 }
+
 /*utilities*/
 .container{
-    padding: 0 100px;
+    padding: 0 67px;
 }
 .btn{
     border: none;
-    border-radius: 50px;
+    border-radius: 33.5px;
     background-color: #0078BE;
     color: white;
-    font-size: 22px;
+    font-size: 14.74px;
     text-align: center;
-    width: 145px;
-    padding: 7px 35px;
-    height: 60px;
+    width: 97.15px;
+    padding: 4.69px 23.45px;
+    height: 40.2px;
     font-weight: bold;
     cursor:pointer;
 }
 .header{
 text-align: center;
-    font-size: 45px;
+    font-size: 30.15px;
     font-weight: 1000;
-    padding-bottom:60px
+    padding-bottom:40.2px
 }
 .card-title{
     text-align: center;
     font-weight: 1000;
-    font-size: 30px;
-    margin: 20px 0;
+    font-size: 20.1px;
+    margin: 13.4px 0;
 }
 .card-desc{
-    margin-top:30px;
-    font-size: 25px;
+    margin-top:20.1px;
+    font-size: 16.75px;
     font-family: sans-serif;
     text-align: center;
     color: #646464;
     line-height: 1.3;
 }
 /*Nav Bar*/
-.header{
-    padding-top: 20px;
+.nav-header{
+    padding-top: 13.4px;
 }
 .white{
     color:white;
 }
 .nav-bar{
-    margin-top: 30px;
+    margin-top: 20.1px;
     height: 14vh;
     display:flex;
     flex-direction: row;
@@ -62,7 +63,7 @@ text-align: center;
 }
 .nav-logo{
     height: 100% ;
-    margin-right:30px;
+    margin-right:20.1px;
     cursor:pointer;
 }
 .nav-links{
@@ -76,9 +77,9 @@ text-align: center;
     list-style: none;
     color: white;
     font-weight: bolder;
-    font-size: 24px;
-    padding: 20px;
-    margin:10px;
+    font-size: 16.08px;
+    padding: 13.4px;
+    margin:6.7px;
     cursor:pointer;
 }
 .nav-links > li:last-child{
@@ -108,7 +109,7 @@ text-align: center;
 }
 .hero-header{
     color:white;
-    font-size:70px;
+    font-size:46.9px;
     font-weight: 1000;
     text-align: center;
     margin-bottom: 5vh;
@@ -123,14 +124,14 @@ text-align: center;
 }
 .hero-bg-index > li{
     list-style: none; 
-    margin:8px;
-    padding:8px;
+    margin:5.36px;
+    padding:5.36px;
     border-radius: 50px;
     cursor:pointer;
 }
 .hero-bg-index > li > div{
-    height: 8px;
-    width: 8px;
+    height: 5.36px;
+    width: 5.36px;
     background-color: rgba(27, 27, 27, 0.5);
     border-radius: 50px;
 }
@@ -144,7 +145,7 @@ text-align: center;
     border: solid white;
     border-left: 0;
     border-top: 0;
-    padding: 15px;
+    padding: 10px;
     transform: rotate(45deg);
     cursor:pointer;
 }
@@ -152,31 +153,31 @@ text-align: center;
 .foundations{
     min-height:100vh;
     background-color: #f5f5f5;
-    padding:60px 0;
+    padding:40.2px 0;
 }
 .foundations-header{
     text-align: center;
-    font-size: 45px;
+    font-size: 30.15px;
     font-weight: 1000;
-    padding-bottom:60px
+    padding-bottom:40.2px
 }
 .foundations-cards{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     width:100%;
-    padding:30px;
+    padding:20.1px;
     justify-content: space-between;
 }
 .foundations-card{
     background-color: white;
     width:19%;
-    padding:50px 35px;
-    border-radius: 20px;
-    box-shadow: -5px 3px 8px #9e9e9e;
+    padding:33.5px 23.45px;
+    border-radius: 13.4px;
+    box-shadow: -3.35px 2px 5.36px #9e9e9e;
 }
 .foundations-img{
-    height:120px;
+    height:80.4px;
     display:flex;
     justify-content: center;
 }
@@ -209,7 +210,7 @@ text-align: center;
 }
 /*Join BDD*/
 .join-bdd{
-    padding:30px 0 60px 0;
+    padding:20.1px 0 40.2px 0;
     min-height: 100vh;
 }
 .join-bdd-container{
@@ -231,28 +232,28 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding:20px 30px;
+    padding:13.4px 20.1px;
 }
 .join-bdd-card > .btn{
-    width: 225px;
+    width: 150.75px;
     font-weight: normal;
 }
 .join-bdd-list > li{
     list-style-image: url('../content/li-style-img.png');
-    padding:15px 0;
-    font-size: 24px;
+    padding:10px 0;
+    font-size: 16px;
 }
 .join-bdd-app-stores{
     width:100%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding:30px;
+    padding:20.1px;
 }
 .join-bdd-download-app{
-    font-size: 20px;
+    font-size: 13.4px;
     font-weight: 1000;
-    margin: 10px 30px;
+    margin: 6.7px 20.1px;
     color:#646464;
 }
 .join-bdd-app-store-imgs{
@@ -261,7 +262,7 @@ text-align: center;
     justify-content: space-between;
 }
 .app-store-img{
-    margin:30px;
+    margin:20.1px;
     height:6vh;
 }
 /* Stats section */
@@ -291,16 +292,16 @@ text-align: center;
     width:25%;
 }
 .bdd-stats-icon{
-    
+    width:93.8px;
 }
 .bdd-stats-header{
     -webkit-text-stroke-color: rgb(52, 194, 52);
     text-align: center;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     font-size:5vh;
     font-weight: bold;
     color:transparent;
-    padding: 20px 0;
+    padding: 13.4px 0;
 }
 .pink-stroke{
     -webkit-text-stroke-color: rgb(179, 23, 101);
@@ -323,7 +324,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:30px 4vw;
+    padding:20.1px 4vw;
 }
 .container-btns{
     display: flex;
@@ -335,25 +336,25 @@ text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 6.7px 0;
     align-items: center;
 }
 .trends-card{
     background-color: white;
-    width:25%;
-    height:80%;
+    width:30%;
+    height:100%;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: -5px 3px 8px #9e9e9e;
+    box-shadow: -3.35px 2px 5.36px #9e9e9e;
 }
 .trend-img{
     height: 60%;
 }
 .trend-title{
     width:70%;
-    font-size: 22px;
-    padding:10px 30px;
+    font-size: 14.74px;
+    padding:6.7px 20.1px;
     font-weight: 1000;
 }
 .trend-title:hover{
@@ -361,25 +362,27 @@ text-align: center;
     cursor: pointer;
 }
 .trend-author{
-    border-top:solid 2px #646464;
-    padding:30px;
+    border-top:solid 1.4px #646464;
+    padding:20.1px;
+    padding-top:10px;
     font-weight: bold;
 }
 .trends-card-btn{
     position: relative;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 71px;
-    height: 70px;
-    border-radius: 10px;
-    font-size: 30px;
+    width: 47.57px;
+    height: 47.57px;
+    border-radius: 6.7px;
+    font-size: 20.1px;
 
 }
 .trends-card-btn:first-child{
     transform: translate(50%, -50%);
 }
 .trend-btn{
-    width:230px;
+    margin:20px;
+    width:154px;
 }
 /* Academy Section */
 .academy{
@@ -391,7 +394,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding:30px 50px;
+    padding:20.1px 33.5px;
     height:50vh;
 }
 .academy-cards{
@@ -403,7 +406,7 @@ text-align: center;
 .academy-card{
     height:100%;
     width:20%;
-    padding:30px;
+    padding:20.1px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -420,11 +423,11 @@ text-align: center;
     width:40%;
 }
 .academy-title{
-    padding:20px 0;
-    font-size:26px;
-    font-weight: 600;
-    line-height: 40px;
+    padding:13.4px 0;
+    font-size:17.42px;
+    font-weight: 4.2;
+    line-height: 26.8px;
 }
 .academy-btn{
-    width:525px;
+    width:350px;
 }

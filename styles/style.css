@@ -345,6 +345,7 @@ text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    box-shadow: -5px 3px 8px #9e9e9e;
 }
 .trend-img{
     height: 60%;
@@ -379,4 +380,51 @@ text-align: center;
 }
 .trend-btn{
     width:230px;
+}
+/* Academy Section */
+.academy{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../content/academy-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 50px;
+    height:50vh;
+}
+.academy-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:20vh;
+}
+.academy-card{
+    height:100%;
+    width:20%;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.academy-card-main{
+    align-items:flex-start;
+    width:40%;
+}
+.academy-card-main > .academy-logo{
+    width:20%
+}
+.academy-logo{
+    height:100%;
+    width:40%;
+}
+.academy-title{
+    padding:20px 0;
+    font-size:26px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.academy-btn{
+    width:525px;
 }

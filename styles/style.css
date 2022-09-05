@@ -531,7 +531,14 @@ text-align: center;
     width:30%;
 }
 /* media queries */
-@media screen and (min-width: 850px){
+@media screen and (max-width: 850px){
+    .nav-header{
+        background-color: #050505fb;
+        padding: 15px 20px;
+    }
+    .mobile-menu{
+        display:block;
+    }
     .nav-links{
         display:none;
     }
@@ -551,12 +558,10 @@ text-align: center;
         display:none;
     }
 }
-@media screen and (min-width: 480px){
+@media screen and (max-width: 480px){
     .nav-header{
         background-color: #050505fb;
         padding: 15px 20px;
-    }
-    .nav-bar{
     }
     .nav-links{
         display:none;
